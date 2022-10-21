@@ -7,7 +7,7 @@ else {
     echo 'B es mayor que A';
 }
 
-echo "\n Conteo hasta 10 : ";
+echo "\n Conteo   shasta 10 : ";
 while($A <= 10)
 {
     echo "  $A ,";
