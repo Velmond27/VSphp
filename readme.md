@@ -2,7 +2,9 @@
 
 WHAT IS PHP?
 
-[https://www.php.net/manual/es/intro-whatis.php](https://www.php.net/manual/es/intro-whatis.php)For learn php yo need to know html code and css if you can.
+[https://www.php.net/manual/es/intro-whatis.php](https://www.php.net/manual/es/intro-whatis.php)
+
+For learn php yo need to know html code and css if you can.
 
 The famous "Hello world" in php:
 ```bash
