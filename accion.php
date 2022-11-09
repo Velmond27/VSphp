@@ -1,16 +1,14 @@
 <?php
-$A=$_POST['A'];
-$B=$_POST['B'];
-if ($A > $B)
-echo ' A es mayor que B' ;
-else {
-    echo 'B es mayor que A';
-}
+$nombre=$_POST['nombre'];
+$sexo=$_POST['sexo'];
+$edad=$_POST['edad'];
+$civil=$_POST['civil'];
 
-echo "\n Conteo hasta 10 : ";
-while($A <= 10)
-{
-    echo "  $A ,";
-    $A= $A+1;
-}
+echo nl2br("\nNombre:\n $nombre " );
+
+echo nl2br("\nEdad: \n$edad ");
+
+echo nl2br("\nEstado\n Civil: $civil ");
+
+echo nl2br("\nSexo:\n $sexo ");
 ?>
