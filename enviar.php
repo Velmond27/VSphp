@@ -37,7 +37,7 @@ if(isset($_POST["arte"])){
         echo nl2br("\nAstronomia");
         $F+=100;}
 
-echo nl2br("\n\nIntereses suma:$C" );
+echo nl2br("\n\nIntereses suma:$F" );
 
 echo nl2br("\n\nSexo:\n" );        
     if (isset($_POST['sexo']))
