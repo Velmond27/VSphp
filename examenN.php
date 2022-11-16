@@ -1,6 +1,6 @@
 <html>
-<form action="accion.php" method="post">
-  
+<form action="enviar.php" method="post">
+
 <br />
 <input name="arte" type="checkbox" />Arte
 <br />
@@ -13,8 +13,6 @@
 <input name="danza" type="checkbox" />Danza
 <br />
 <input name="otra" type="checkbox" />otra
-
-
  
  <p>Sexo: 
  <br />

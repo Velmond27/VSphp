@@ -2,7 +2,7 @@
 $A=$_POST['A'];
 $B=$_POST['B'];
 if($A>$B){
-echo nl2br("\n\nInteresesn:" );
+echo nl2br("\n\nIntereses:" );
 if(isset($_POST["arte"]))
         echo nl2br("\nArte");
      
