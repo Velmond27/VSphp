@@ -12,10 +12,11 @@ if($C>$D){
 }else{
     $SUMA=$C;
     while($n <$D){
-        $C+=($SUMA+1);
         $n++;
+        $SUMA+=$n;
+        
     }
-    echo nl2br("\n\nsumatoria serie de C a D:$C" );
+    echo nl2br("\n\nsumatoria serie de C a D:$SUMA" );
 }
 $F=0;
 echo nl2br("\n\nIntereses:" );
