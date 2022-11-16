@@ -1,18 +1,20 @@
 <html>
 <form action="enviar.php" method="post">
+<p>A: <input type="number" name="A"></p>
+<p>B: <input type="number" name="B"></p>
 
 <br />
-<input name="arte" type="checkbox" />Arte
+<input name="arte" type="checkbox" value="10" />Arte
 <br />
-<input name="musica" type="checkbox" />Musica
+<input name="musica" type="checkbox" value="8"  />Musica
 <br />
-<input name="arquitectura" type="checkbox" />Arquitectura
+<input name="arquitectura" type="checkbox" value="7"  />Arquitectura
 <br />
-<input name="astronomia" type="checkbox" />Astronomia
+<input name="astronomia" type="checkbox" value="11" />Astronomia
 <br />
-<input name="danza" type="checkbox" />Danza
+<input name="danza" type="checkbox" value="10" />Danza
 <br />
-<input name="otra" type="checkbox" />otra
+<input name="oratoria" type="checkbox" value="50" />oratoria
  
  <p>Sexo: 
  <br />
