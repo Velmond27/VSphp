@@ -9,27 +9,27 @@ background: linear-gradient(to bottom,  hwb(0 26% 0%) 0%,#ffffff 0%,#ffffff 28%,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fd32a', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 " >
 <form action="enviar.php" method="post">
-<p>A: <input type="number" name="A"></p>
-<p>B: <input type="number" name="B"></p>
+<p>C: <input type="number" name="C"></p>
+<p>D: <input type="number" name="D"></p>
 
 <br />
-<input name="arte" type="checkbox" value="10" />Arte
+<input name="arte" type="checkbox" />Arte
 <br />
-<input name="musica" type="checkbox" value="8"  />Musica
+<input name="astronomia" type="checkbox"  />Astronomia
 <br />
-<input name="arquitectura" type="checkbox" value="7"  />Arquitectura
+<input name="baile" type="checkbox" />Baile
 <br />
-<input name="astronomia" type="checkbox" value="11" />Astronomia
+<input name="teatro" type="checkbox" />Teatro
 <br />
-<input name="danza" type="checkbox" value="10" />Danza
+<input name="danza" type="checkbox"  />Danza
 <br />
-<input name="oratoria" type="checkbox" value="50" />oratoria
+<input name="escultura" type="checkbox" />escultura
  
  <p>Sexo: 
  <br />
-<input name="sexo" type="radio" value="H" />H
+<input name="sexo" type="radio" value="Hombre" />H
 <br />
-<input name="sexo" type="radio" value="M" />M
+<input name="sexo" type="radio" value="Mujer" />M
 <br />
 <input name="sexo" type="radio" value="Otro" />Otro
 </p>
