@@ -56,7 +56,7 @@ if($C>$D){
     echo nl2br("\n\nsumatoria serie de C a D:$SUMA" );
 }
 ```
-Example taken from[Ejemplo de ciclos y condicionales en php](enviar.php)
+
 The syntax of the cycles and conditionals do not change excessively in comparison to other languages ​​such as Java.
 
 
