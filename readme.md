@@ -40,4 +40,23 @@ here the links:
 [https://www.apachefriends.org/es/download.html](https://www.apachefriends.org/es/download.html)
 
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
+ 
+WHILE´'s and IF´s IN PHP:
+``` bash
+if($C>$D){
+    $C+=$D;
+    echo nl2br("\n\nA+B:$C" );
+}else{
+    $SUMA=$C;
+    while($n <$D){
+        $n++;
+        $SUMA+=$n;
+        
+    }
+    echo nl2br("\n\nsumatoria serie de C a D:$SUMA" );
+}
+```
+Example taken from[Ejemplo de ciclos y condicionales en php](enviar.php)
+The syntax of the cycles and conditionals do not change excessively in comparison to other languages ​​such as Java.
+
 
